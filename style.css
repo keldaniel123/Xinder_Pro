@@ -79,10 +79,10 @@ img {
     flex-direction: column;
 }
 .Hero_section h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: var(--secondary-font-weight);
     color: var(--text-color);
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .Hero_section .text{
     display: flex;
