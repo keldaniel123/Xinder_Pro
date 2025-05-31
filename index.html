@@ -5,40 +5,338 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xinder</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar_container">
-        <div class="nav_bar">
-            <div class="xinder_logo"><img src="images/xinder_logo.png" alt="brand_logo"></div>
-            <div class="hamburger_menu_icon"><img src="images/Hamburger_Icon.png" alt="Hamburger_menu"></div>
-        </div>
-
-        <div class="Hero_section">
-            <div class="hero-title"><h3>Search the work of the best artists</h3></div>
-            <div class="form"><form action="#" class="text">
-                <input type="text" placeholder="search for artist, work na...">
-                <button class="main_btn">Search</button>
-            </form></div>
-            <div class="btn_list">
-                <li><a href="#">Oil Painting</a></li>
-                <li><a href="#">Abstract Art</a></li>
-                <li><a href="#">Sculpture</a></li>
-                <li><a href="#">Art Deco</a></li>
-                <li><a href="#">Paint</a></li>
+    <header class="container">        
+        <nav>
+            <div class="logo">
+                <h1>xinder</h1>
+                <!-- <img src="images/xinder_logo.png" width="90" height="35" alt="Xinder-logo"> -->
             </div>
-        </div>
-        <div class="model_img"><img src="images/Col.png" alt="Model"></div>
-    </div>
+            <div class="navbar-list">
+                <ul> 
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Solution</a></li>
+                    <li><a href="#">Article</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <button class="logo-button">Join Now </button>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <section class="section_a_container">
-        <li><a href="#"><img src="images/Logo-grey1.png" alt="Logo-grey1"></a></li>
-        <li><a href="#"><img src="images/Logo-grey2.png" alt="Logo-grey2"></a></li>
-        <li><a href="#"><img src="images/Logo-grey3.png" alt="Logo-grey3"></a></li>
-        <li><a href="#"><img src="images/Logo-grey4.png" alt="Logo-grey4"></a></li>
-        <li><a href="#"><img src="images/Logo-grey6.png" alt="Logo-grey6"></a></li>
+    <section class="wrapper" >
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>Search the work of the best artists</h1>
+                <div class="form">
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" class="placeholder" placeholder="Search for artist, work name, or category">
+                    <button type="submit" class="search-btn">Search</button>
+                </div>
+                <div class="list-items">
+                    <li><a href="#">Oil Painting</a></li>
+                    <li><a href="#">Abstract Art</a></li>
+                    <li><a href="#">Sculpture</a></li>
+                    <li><a href="#">Art Deco</a></li>
+                    <li><a href="#">Pop Art</a></li>
+                </div>
+            </div>
+                <img src="images/Pexels Photo by Ketut Subiyanto.png">
+        </div>
     </section>
-</body>
+
+    <main>
+        <section class="logo-images">
+            <ul>
+                <li><a href="#"><img src="images/Logo-grey1.png" alt="smartFinder"></a></li>
+                <li><a href="#"><img src="images/Logo-grey2.png" alt="zoomerr"></a></li>
+                <li><a href="#"><img src="images/Logo-grey3.png" alt="shells"></a></li>
+                <li><a href="#"><img src="images/Logo-grey4.png" alt="waves"></a></li>
+                <li><a href="#"><img src="images/Logo-grey6.png" alt="artVenue"></a></li>
+            </ul>
+        </section>
+
+        <section class="features-categories">
+            <div class="features-section">
+                <h2>Featured art categories</h2>
+                <a href="#">View All Categories <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card-container">
+                <div class="card1">
+                    <img src="images/card 1.jpg" alt="vases_family_card">
+                    <div class="text-overlay">
+                        <div class="category">Pottery</div>
+                        <div class="title">Vases Family</div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="images/card 2.png" alt="Camel_Portrait_card">
+                    <div class="text-overlay">
+                        <div class="category">Oil Painting</div>
+                        <div class="title">Camel Portrait</div>
+                    </div>
+                </div>
+                 <div class="card1">
+                    <img src="images/card 3.jpg" alt="Euforia_card">
+                    <div class="text-overlay">
+                        <div class="category">Abstract Painting</div>
+                        <div class="title">Euforia</div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="images/card 4.jpg" alt="Classic_watch_card">
+                    <div class="text-overlay">
+                        <div class="category">Object Design</div>
+                        <div class="title">Classic Watch</div>
+                    </div>
+                </div>
+                 <div class="card1">
+                    <img src="images/card 5.png" alt="White_Angel_card">
+                    <div class="text-overlay">
+                        <div class="category">Sculpture</div>
+                        <div class="title">White Angel</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="masterpiece-categories">
+            <div class="masterpiece-section">
+                <h2>Latest masterpieces</h2>
+                <a href="#">Discover More Masterpiece <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card-container">
+                <div class="mastercard1">
+                    <img src="images/Card_2_001.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="badge-1">Promoted</div>
+                    <div class="user-container">
+                        <img src="images/flower img 1.jpg"  class="user-pic" alt="user1">
+                        <div class="user-text">
+                            <h4>Flower Decorations</h4>
+                            <p>by Malvina Spring</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mastercard1">
+                    <img src="images/Card_2_002.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="badge-2">Featured</div>
+                    <div class="user-container">
+                        <img src="images/flower img 2.jpg"  class="user-pic" alt="user1">
+                        <div class="user-text">
+                            <h4>Flower Decorations</h4>
+                            <p>by Malvina Spring</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mastercard1">
+                    <img src="images/Card_2_003.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="user-container">
+                        <img src="images/flower img 3.jpg"  class="user-pic" alt="user1">
+                        <div class="user-text">
+                            <h4>Splash</h4>
+                            <p>by Rwanda Melfor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mastercard1">
+                    <img src="images/Card_2_004.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="user-container">
+                        <img src="images/flower img 4.jpg"  class="user-pic" alt="user1">
+                        <div class="user-text">
+                            <h4>Colorful Face</h4>
+                            <p>by Malvina Spring</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- <div class="mastercard1">
+                    <img src="images/Card_2_005.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="user-container">
+                        <img src="images/flower img 5.jpg"  class="user-pic" alt="user1">
+                        <div class="user-text">
+                            <h4>Flower Decorations</h4>
+                            <p>by Malvina Spring</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="services-container">
+            <div class="service_section">
+                <h2>Expanding Services</h2>
+                <div class="services-list-items">
+                    <div class="icon_container">
+                        <img src="images/trophy_icon.png" class="icon_1" alt="trophy_icon">
+                        <p>Nibh viverra</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <img src="images/round_cone_icon.png" class="icon_1" alt="trophy_icon">
+                        <p>Cursus amet</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <img src="images/television_icon.png" class="icon_1" alt="trophy_icon">
+                        <p>Ipsum fermentum</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <img src="images/sunshine_icon.png" class="icon_1" alt="trophy_icon">
+                        <p>Quisque euismod</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <img src="images/microphone_icon.png" class="icon_1" alt="trophy_icon">
+                        <p>Arcu vulputate</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <img src="images/Tag_Icon.png" class="icon_1" alt="trophy_icon">
+                        <p>ACras auctor</p>
+                    </div>
+                </div>
+                <a href="#"><button class="expand-btn">Find Services</button></a>
+            </div>
+        </section>
+
+        <section class="solution-container">
+            <div class="solution-section">
+                <div class="solution-text">
+                    <div class="solution_heading_text">
+                        <h3>Best solutions for your demanding collection</h3>
+                        <p>Odio vulputate cras vel lacinia turpis volutpat adipiscing. Sollicitudin at velit, blandit tempus nunc in.</p>
+                    </div>
+                    <div class="solution_subheading_text">
+                        <p><i class="fa-solid fa-check"></i>Interdum volutpat turpis malesuada ac turpis.</p>
+                        <p><i class="fa-solid fa-check"></i>Tortor ipsum pretium quis nunc.</p>
+                        <p><i class="fa-solid fa-check"></i>Vitae odio a id purus in.</p>
+                    </div>
+                    <button class="explore-btn">Explore Xinder</button>
+                </div>
+                <div class="solution-right-img">
+                    <img src="images/solution_section_right_img.png" alt="solution-right-images">
+                </div>
+            </div>
+        </section>
+
+        <section class="founder-container">
+            <div class="founder-section">
+                <!-- Left Arrow -->
+                    <div class="nav-arrow left"></div>
+                    <!-- card list starts -->
+                <img src="images/Col-left-icon.png" alt="model_left_img">
+                <div class="founder-text-container">
+                    <h5>Marie Poirot, Co-Founder <span>Art-Gal</span> </h5>
+                    <p>“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. Neque suspendisse a habitasse commodo.”</p>
+                </div>
+                 <!-- Right Arrow -->
+                    <div class="nav-arrow right"></div>
+            </div>
+        </section>
+
+        <section class="incredible-container">
+            <div class="incredible-section">
+                <div class="incredible-text">
+                    <h3>Be incredible</h3>
+                    <p>Nec ultricies eget placerat ultricies ele ifend dignissim aliquet sapien. Senectus vestibulum, <br>eget erat at et congue cursus pretium.</p>
+                    <button class="explore-btn">Explore Xinder</button>
+                </div>
+                <div class="incredible-img-content carousel-wrapper">
+                    <!-- Left Arrow -->
+                    <button class="arrow-btn arrow-left" id="prevBtn">
+                         <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <!-- card list starts -->
+                    <div class="incredible-card left card-dimmed">
+                        <img src="images/Picture 1.png"  class="Card_2_001" alt="vases_family_card">
+                        <div class="user-img">
+                            <img src="images/User Thumb-1.png"  class="user-pic" alt="user1">
+                            <p class="title">Splash</p>
+                        </div>
+                    </div>
+
+                    <div class="incredible-card card-active">
+                        <img src="images/Picture2.png"  class="Card_2_001" alt="vases_family_card">
+                        <div class="user-img">
+                            <img src="images/User Thumb-2.png"  class="user-pic" alt="user1">
+                            <p class="title">Colorful Face</p>
+                        </div>
+                    </div>
+
+                    <div class="incredible-card right card-dimmed">
+                        <img src="images/Picture3.png"  class="Card_2_001" alt="vases_family_card">
+                        <div class="user-img">
+                            <img src="images/User Thumb-3.png"  class="user-pic" alt="user1">
+                            <p class="title">Fence Spying</p>
+                        </div>
+                    </div>
+                    <!-- Card list ends -->
+
+                     <!-- Right Arrow -->
+                    <button class="arrow-btn arrow-right" id="nextBtn">
+                       <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="events-categories">
+            <div class="events-section">
+                <h2>Art events</h2>
+                <a href="#">Explore All Events <i class="fa-solid arrow fa-arrow-right"></i></a>
+            </div>
+            <div class="card-container">
+                <div class="event_card">
+                    <img src="images/Event_Picture1.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="text-container">
+                        <h4>Wild Horse Event</h4>    
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+                
+                <div class="event_card">
+                    <img src="images/Event_Picture2.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="text-container">
+                        <h4>Great Colors</h4>    
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+
+                <div class="event_card">
+                    <img src="images/Event_Picture3.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="text-container">
+                        <h4>Happy Father’s Day</h4>    
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="collection-categories">
+            <div class="collection-section">
+                <div class="text-collection">
+                    <h2>Add more masterpieces to your growing collection</h2>
+                    <button class="btn">Join Now</button>
+                </div>
+                <img src="images/collection-img.png" alt="A male model images">
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-section">
+
+        </div>
+    </footer>
+</body> 
 </html>
