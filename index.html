@@ -14,16 +14,16 @@
     <header class="container">        
         <nav>
             <div class="logo">
-                <h1>xinder</h1>
+                <a href="#home"><h1>xinder</h1></a>
                 <!-- <img src="images/xinder_logo.png" width="90" height="35" alt="Xinder-logo"> -->
             </div>
             <div class="navbar-list">
                 <ul> 
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#">Solution</a></li>
-                    <li><a href="#">Article</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <button class="logo-button">Join Now </button>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#signUp">Sign Up</a></li>
+                    <a href="#joinUs"><button class="logo-button">Join Now </button></a>
                 </ul>
             </div>
         </nav>
@@ -49,7 +49,37 @@
                 </div>
             </div>
                 <img src="images/Pexels Photo by Ketut Subiyanto.png">
-        </div>
+            </div>
+            <div class="sign-up-container"><a href="#signUp"></a>
+                <div class="form-box">
+                    <h1>Sign Up</h1>
+                    <form action="#">
+                        <div class="input-group">
+                            <div class="input-field">
+                                <i class=" input-icon fa-solid fa-user"></i>
+                                <input type="text" placeholder="Name">
+                            </div>
+                        </div>
+                         <div class="input-group">
+                            <div class="input-field">
+                                <i class=" input-icon fa-solid fa-envelope"></i>
+                                <input type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-field">
+                                <i class=" input-icon fa-solid fa-lock"></i>
+                                <input type="password" class="password" placeholder="Password">
+
+                            </div>
+                        </div>
+                    </form>
+                    <div class="button-field">
+                        <button class="form-btn"><a href="#">Sign Up</a></button>
+                    </div>
+                    <li class="sign-btn"><a href="#">Sign In</a></li>
+                </div>
+            </div>
     </section>
 
     <main>
@@ -63,7 +93,7 @@
             </ul>
         </section>
 
-        <section class="features-categories">
+        <section class="features-categories" id="article">
             <div class="features-section">
                 <h2>Featured art categories</h2>
                 <a href="#">View All Categories <i class="fa-solid fa-arrow-right"></i></a>
@@ -210,7 +240,7 @@
             </div>
         </section>
 
-        <section class="solution-container">
+        <section class="solution-container" id="solution">
             <div class="solution-section">
                 <div class="solution-text">
                     <div class="solution_heading_text">
@@ -291,7 +321,7 @@
             </div>
         </section>
 
-        <section class="events-categories">
+        <section class="events-categories" id="explore">
             <div class="events-section">
                 <h2>Art events</h2>
                 <a href="#">Explore All Events <i class="fa-solid arrow fa-arrow-right"></i></a>
@@ -299,6 +329,7 @@
             <div class="card-container">
                 <div class="event_card">
                     <img src="images/Event_Picture1.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="badge-2">Features</div>
                     <div class="text-container">
                         <h4>Wild Horse Event</h4>    
                         <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
@@ -307,6 +338,7 @@
                 
                 <div class="event_card">
                     <img src="images/Event_Picture2.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="badge-3">New</div>
                     <div class="text-container">
                         <h4>Great Colors</h4>    
                         <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
@@ -315,6 +347,7 @@
 
                 <div class="event_card">
                     <img src="images/Event_Picture3.png"  class="Card_2_001" alt="vases_family_card">
+                    <div class="badge-4">coming soon</div>
                     <div class="text-container">
                         <h4>Happy Father’s Day</h4>    
                         <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
@@ -323,7 +356,7 @@
             </div>
         </section>
 
-        <section class="collection-categories">
+        <section class="collection-categories" id="joinUs">
             <div class="collection-section">
                 <div class="text-collection">
                     <h2>Add more masterpieces to your growing collection</h2>

@@ -22,7 +22,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 li a, a, li{
     text-decoration: none;  
     list-style: none;
@@ -113,8 +115,16 @@ nav {
   transition: all .3s ease-in-out;
 }
 
+.logo-button:hover{
+  background: rgb(228, 66, 95); 
+  transition:  background 6s ease;
+  cursor: pointer;
+  border: none;
+}
+
  /*-----main-section------- */
 .wrapper {
+    position: relative;
     padding-left: 80px;
     background: var(--primary-color);
 }
@@ -172,11 +182,120 @@ nav {
     color: var(--secondary-color);
     font-size: 16px;
   }
-  .search-btn:hover{
+ .search-btn:hover{
     background: rgb(228, 66, 95); 
     transition:  background 2s ease;
     cursor: pointer;
   }
+  
+/* SIGN-UP PAGE START */
+.sign-up-container {
+  position: absolute;
+  width: 400px;
+  height: 65%;
+  background-color: rgba(255, 255, 255, .7);
+  box-shadow: 5px 5px 20px rgba(239, 132, 132, 0.7);
+  transform: translate(-50%, -50%);
+  top: 40%;
+  right: -8.5%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-icon {
+  position: absolute;
+  z-index: 1;
+  right: 85%
+}
+
+.input-field  input[type="text"] {
+  position: relative;
+  width: 100%;
+  background: white;
+  border: none;
+  outline: none;
+}
+
+.input-field i {
+  color: var(--main-button-color);  
+}
+
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: var(--main-button-color);
+}
+.form-box h1::after{
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: var(--secondary-color);
+  position: absolute;
+  bottom: 81%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-field{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+.form-btn {
+  margin-top: 10px;
+  padding: 10px 40px ;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: var(--main-button-color);
+}
+.form-btn:hover {
+  background-color: rgb(228, 66, 95); 
+  transition: all 2s ease-in-out;
+}
+.form-btn a {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+.sign-btn {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 5px;
+  text-align: end;
+  color: var(--main-button-color);
+}
+.sign-btn a {
+  color: var(--main-button-color);
+}
+.password {
+  /* position: relative; */
+  width: 100%;
+  height: 48px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 48px;
+}
+
+
+
+
+
+
+
+
+
+/* SIGN-UP PAGE ENDS */
+
   input:not(:placeholder-shown){
     font-size: 16px;
     font-weight: 500;
@@ -215,12 +334,22 @@ nav {
     border-radius: 5px;
     margin-right: 10px;
   }
+
+   .list-items li:hover {
+    background-color: rgba(255, 255, 255, 100);
+    transition: all 1s ease-in;
+   }
+
   .list-items li a {
     font-size: 11px;
     padding: 50px 0;
     color: var(--secondary-color);
     margin: 9px;
   }
+  .list-items li a:hover{
+    color: var(--primary-color);
+  }
+
   .logo h1 {
     font-weight: 900;
     font-size: 32px;
@@ -255,7 +384,7 @@ nav {
     color: var(--link-text-color);
     font-weight: 500;
   }
-  .events-section, .arrow {
+ .arrow {
     padding-left: 16px;
   }
   .card-container{
@@ -300,6 +429,9 @@ nav {
     box-shadow: var(--box-shadow);
     border-radius: 6px;
   }
+  .event_card {
+    position: relative;
+  }
   .badge-1{
       position: absolute;
       top: 20px;
@@ -324,6 +456,32 @@ nav {
       font-weight: 500;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   }
+  .badge-3 {
+     position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #DCFCE7;
+      color: #166534;
+      padding: 4px 10px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      font-weight: 500;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .badge-4 {
+     position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color:#FEF9C3;
+      color: #854D0E;
+      padding: 4px 10px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      font-weight: 500;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
   .Card_2_001 {
     border-radius: 6px 6px 0 0;
   }
