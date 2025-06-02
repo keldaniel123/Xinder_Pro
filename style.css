@@ -150,7 +150,7 @@ nav {
 
 .hero-text {
     flex: 1;
-    min-width: 300px;           /* Prevents it from collapsing on small screens */
+    min-width: 300px;   /* Prevents it from collapsing on small screens */
 }
 
 .hero-section img {
@@ -815,7 +815,74 @@ nav {
       border-radius: 5px;
       font-size: 17px;
     }
+
+    /* FOOTER---SECTION---START */
     .footer-container {
-      padding: 80px;
+      padding: 0 80px;
       background-color: var(--secondary-color);
+    }
+
+    .footer-section {
+      display: flex;
+      gap: 48px;
+      padding: 48px 0;
+    }
+
+    .headline-icon img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .headline-icon {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      padding: 15px 0;
+      color: #475569;
+    }
+    .category-headline, 
+    .product-headline, 
+    .solutions-headline,
+    .resources-headline,
+    .support-headline,
+    .company-headline {
+      width: 173px;
+      height: 324px;
+    }
+    .category-headline li,
+     .product-headline li,
+     .solutions-headline li,
+     .support-headline li,
+     .resources-headline li,
+     .company-headline li {
+      padding: 12px 0;
+    }
+
+    .category-headline li a,
+     .product-headline li a,
+     .solutions-headline li a,
+     .support-headline li a,
+     .resources-headline li a,
+     .company-headline li a {
+      color: #475569;
+      font-size: 16px;
+     }
+
+    .social-media-icons {
+      display: flex;
+      justify-content: space-between;
+      padding: 49px 0 25px 0;
+      border-top: 1px solid rgb(190, 189, 189);
+    }
+    .social-media-icons {
+      color: #475569;
+    } 
+    .social-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .paragraph-text {
+      padding: 20px 0 48px 0;
+      color: #475569;
     }
